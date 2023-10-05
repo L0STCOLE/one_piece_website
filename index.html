@@ -53,10 +53,15 @@
     </style>
 </head>
 <body>
-    <!-- Background Music -->
-  
-
-    <audio src="One_Piece_-_We_Are_Straw_Hat_Version.mp3" autoplay loop></audio>
+    <button id="playButton">Play Music</button>
+    <audio id="backgroundMusic" src="We_Are.mp3" loop></audio>
+    <script>
+        document.getElementById('playButton').addEventListener('click', function() {
+            var audio = document.getElementById('backgroundMusic');
+            audio.play();
+        });
+    </script>
+    
 
     <h1>Welcome to the One Piece World!</h1>
     <p>Join Monkey D. Luffy and his crew on their epic adventures across the Grand Line. Explore the mysterious Devil Fruits, face formidable foes, and uncover the ultimate treasure, the One Piece.</p>
@@ -67,10 +72,10 @@
     <a href="https://www.netflix.com/title/80038273" target="_blank" class="button">Watch Now</a>
     <p>© Eiichiro Oda</p>
     
-    <!-- Sign In and Register Buttons -->
+    <!-- Discord and reddit -->
     <div class="signin-register">
-        <a href="signin.html" class="button">Sign In</a>
-        <a href="register.html" class="button">Register</a>
+        <a href="https://discord.com/invite/onepiece" class="button">Discord</a>
+        <a href="https://www.reddit.com/r/OnePiece/" class="button">Reddit</a>
     </div>
 </body>
 </html>
