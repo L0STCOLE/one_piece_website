@@ -43,6 +43,12 @@
         .button:hover {
             background-color: orange;
         }
+        /* Positioning for Sign In and Register buttons */
+        .signin-register {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -54,8 +60,11 @@
     <a href="https://onepiece.fandom.com/wiki/Main_Page" target="_blank" class="button">Explore More</a>
     <a href="https://www.netflix.com/title/80038273" target="_blank" class="button">Watch Now</a>
     <p>© Eiichiro Oda</p>
-      <!-- Sign In and Register Buttons -->
-      <a href="signin.html" class="button">Sign In</a>
-      <a href="register.html" class="button">Register</a>
+    
+    <!-- Sign In and Register Buttons -->
+    <div class="signin-register">
+        <a href="signin.html" class="button">Sign In</a>
+        <a href="register.html" class="button">Register</a>
+    </div>
 </body>
 </html>
