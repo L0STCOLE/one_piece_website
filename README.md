@@ -7,4 +7,3 @@
     <p>Set sail for an unforgettable journey filled with friendship, laughter, and the pursuit of dreams.</p>
     <p>© Eiichiro Oda</p>
 </body>
-</html>
